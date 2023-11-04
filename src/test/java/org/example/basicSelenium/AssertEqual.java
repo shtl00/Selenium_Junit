@@ -1,6 +1,15 @@
 package org.example.basicSelenium;
 
-public class AssertEqual { WebDriver driver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import static org.junit.Assert.assertEquals;
+
+public class AssertEqual {  WebDriver driver;
     String baseUrl;
     @Before
     public void browserSetup(){
