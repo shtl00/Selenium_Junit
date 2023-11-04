@@ -11,5 +11,6 @@ public class LoginFunctionality { private static WebDriver driver;
         WebDriverManager drive = new ChromeDriverManager();
         driver.manage().window().maximize();
         driver.get("https://www.zara.com/uk/");
+        //
     }
     }
